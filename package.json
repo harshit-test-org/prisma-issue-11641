@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@golevelup/nestjs-testing": "^0.1.2",
     "@prisma/client": "^3.10.0-dev.16",
     "prisma": "^3.10.0-dev.16"
   },
