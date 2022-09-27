@@ -1,9 +1,9 @@
-import { createMock } from "@golevelup/nestjs-testing";
+import { createMock } from "@golevelup/ts-jest";
 import { PrismaClient } from "@prisma/client";
 
 createMock<PrismaClient>({
   user: {
-    findMany(args?) {
+    findMany() {
       return Promise.resolve([]);
     }
   }
